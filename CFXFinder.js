@@ -3,7 +3,7 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest; /*Parempi vaan 
 const client = new Discord.Client();
 const prefix = '.'
 
-client.login('ODA1NDY4Njc1ODkyNTc2MzI2.YBbVKQ.flToKI6sSTVcJF2zluAtHnZ1TnE');
+client.login('process.env.token');
 
 client.on('ready', () => {
 	console.log(`bot, is ready for use.`, "ready");	
@@ -48,7 +48,7 @@ client.on("message", function(message) {
 					.setTitle('Error.')
 					.setDescription(`You didn't provide any arguments, ${message.author}!`)
 					.setTimestamp()
-					.setFooter('Error.');
+					.setFooter('RJ Finder v1.0');
 						message.channel.send(exampleEmbed33); /*Returnia ei tarvitse käyttää ollenkaan koska kyseessä ei ole c++ ja sen paskat funktiot*/
 		} else if(link.includes('https://')) {
 			const channel = message.channel.id;
