@@ -3,7 +3,7 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest; /*Parempi vaan 
 const client = new Discord.Client();
 const prefix = '.'
 
-client.login('process.env.token');
+client.login('ur token here');
 
 client.on('ready', () => {
 	console.log(`bot, is ready for use.`, "ready");	
