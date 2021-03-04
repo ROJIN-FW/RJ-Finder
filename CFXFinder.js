@@ -3,7 +3,7 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest; /*Parempi vaan 
 const client = new Discord.Client();
 const prefix = '.'
 
-client.login('ODA1NDY4Njc1ODkyNTc2MzI2.YBbVKQ.flToKI6sSTVcJF2zluAtHnZ1TnE');
+client.login('sexy');
 
 client.on('ready', () => {
 	console.log(`bot, is ready for use.`, "ready");	
